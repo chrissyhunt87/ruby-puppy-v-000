@@ -4,10 +4,14 @@ class Dog
   @@all = []
 
   def initialize
-    @all << self
+    @@all << self
   end
 
   def clear_all
-    
+    @@all = []
+  end
+
+  def all 
+    @@all 
   end
 end
